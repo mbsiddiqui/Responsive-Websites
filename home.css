@@ -1,0 +1,308 @@
+/* .Saylani-Color-Scheme{
+    color: #00FF00; green
+    color: #316dc3 or #2655e8; blue
+} */
+/* go to top icon */
+.goto-top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.3;
+}
+.goto-top:hover{
+    opacity: 0.9;
+}
+
+/* general */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* first section (social media banner)*/
+.first{
+    /* margin-left: 40px; */
+    margin: auto;
+    background-color: #316dc3;
+    padding: 7px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 30px;
+    max-width: 35px;
+    min-height: 30px;
+    max-height: 35px;
+}
+.text{
+    color: white;
+    text-align: center;
+    
+}
+
+/* second section (nav)*/
+.navbar{
+    color: black;
+    text-align: center;
+}
+.dropdown-item:hover, .nav-item:hover{
+    color: white;
+    background-color: #316dc3;
+    border-radius: 50px;
+    /* margin-left: 20px; */
+}
+.active{
+    background-color: #316dc3;
+    border-radius: 50px;
+}
+
+/* third section (carousel)*/
+/* fourth section (tickers) */
+.tickers{
+    text-align: center;
+    background-color: #316dc3;
+    color: white;
+}
+.ticker-link{
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* fifth section (intro)*/
+.intro{
+    text-align: center;
+    line-height: 1px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+.intro-textGreen{
+    display: inline-block;
+    color: #427900;
+}
+.intro-textBlue{
+    display: inline-block;
+    color: #316dc3;
+}
+.introPara-textGreen{
+    display: block;
+    color: #427900;
+}
+.intro-content{
+    margin: 4px;
+    padding: 4px;
+    text-align: justify;
+    line-height: normal;
+}
+
+/* sixth section (people helped) */
+.banner-child-1, .banner-child-2, .banner-child-3, .banner-child-4{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+.main-banner{
+    background-color: #2655e8;
+    height: auto;
+    line-height: 50px;
+
+}
+.banner-child-icons{
+    width: 35px;
+    height: 35px;
+}
+.child-greenText{
+    color: #00FF00;
+}
+.figures{
+    font-size: 50px;
+}
+.child-text{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+/* seventh section (what we do) */
+.services-main{
+    text-align: center;
+    background-color: rgb(231, 230, 230);
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 30px;  
+    letter-spacing: normal;
+}
+.main-textGreen{
+    display: inline-block;
+    color: #427900;
+}
+.main-textBlue{
+    display: inline-block;
+    color: #2655e8;
+}
+.mainPara-textGreen{
+    display: block;
+    color: #427900;
+}
+.mainPara-textBlue{
+    display: block;
+}
+
+.service-grandChild-1, .service-grandChild-2, .service-grandChild-3, .service-grandChild-4, .service-grandChild-5, .service-grandChild-6{
+    display: inline-block;
+    background-color: white;
+    padding: 60px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: auto;
+    width: max-content;
+    /* box-sizing: content-box; */
+    box-shadow: 6px 6px 4px gray;
+}
+.services-img{
+    width: 70px;
+    height: auto;
+}
+
+/* eighth section (upcoming events and projects) */
+/* .events-main{
+    margin-left: 20px;
+} */
+
+@media only screen and (min-width: 768px){
+    .upcoming{
+        position: absolute;
+        right: -250px;
+        bottom: 130px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .upcoming{
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+    }
+}
+
+.events-child{
+    background-color: silver; 
+    border: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+/* ninth section (image gallery) */
+.gallery{
+    text-align: center;
+    line-height: 1px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    justify-content: space-around;
+}
+.gallery-textGreen{
+    display: inline-block;
+    color: #427900;
+}
+.gallery-textBlue{
+    display: inline-block;
+    color: #2655e8;
+}
+.galleryPara-textGreen{
+    display: block;
+    color: #427900;
+}
+.gallery-img{
+    padding: 4px;
+    width: 230px;
+    height: 150px;
+}
+.gallery-img-div{
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-bottom: 200px;
+}
+
+/* tenth section (footor) */
+.footer{
+    background-color: black;
+    color: white;
+    line-height: 3px;
+    text-align: left;
+    padding: 10px;
+    font-size: 10px;
+}
+.footer-child1{
+    float: left;
+    width: 33.33%;
+}
+.footer-child2{
+    float: left;
+    width: 33.33%;
+}
+.footer-child3{
+    float: left;
+    width: 33.33%;
+}
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer-textHead{
+    font-weight: bold;
+    color: white;
+}
+.footer-text-addr{
+    line-height: normal;
+    color: white;
+}
+.links{
+    text-decoration: underline;
+    color: white;
+}
+.footer-textGreen{
+    color: #427900;
+}
+.footer-img{
+    width: 30px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.footer-img-email{
+    width: 35px;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 3px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.footer-img-social{
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+}
+
+/* eleventh section (copyright and developer info) */
+.copyright{
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    background-color: darkcyan;
+    height: 70px;
+    color: gold;
+}
